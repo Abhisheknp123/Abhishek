@@ -1,0 +1,25 @@
+package mypackage;
+
+import java.util.Scanner;
+
+public class AgeValidation {
+
+	public static void main(String[] args) {
+		System.out.println("enter your age");
+
+		short age;
+		
+		Scanner scanner = new Scanner(System.in);
+		age = scanner.nextShort();
+		if(age>18)
+		{
+			System.out.println("age is greater than 18");
+		}
+		else
+		{
+			System.out.println("age is not greater than 18");
+		}
+
+	}
+
+}
